@@ -1,0 +1,32 @@
+ion-content{
+    --background: var(--ion-color-light);
+    //--background: url(../../../assets/images/collage.jpg);
+}
+
+ion-footer{
+    height: 99%;
+    ion-list{
+        --background: var(--ion-color-white);
+        height: 100%;
+        border-radius: 20px 20px 0 0;
+        ion-list-header{
+            ion-label{
+                font-weight: bold;
+                font-size: 1.8em;
+            .ion-no-border{
+                color:aqua;
+            }
+            }
+        }
+        
+        ion-item{
+            
+            --ion-item-color: success;
+            iom-label{
+                font-size: 0.9rem;
+                overflow: visible;
+               
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "school-corner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
